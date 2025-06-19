@@ -1,0 +1,29 @@
+body{
+    font-family: var(--fuente-base);
+    background-color: var(--color-secundario);
+    color: #333;
+    padding: 15px;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    background-color: var(--color-primario);
+    color: white;
+    padding: var(--espaciado-base);
+}
+
+.pie{
+    margin-left: 15px;
+    background-color: var(--color-primario);
+    color: white;
+    padding: var(--espaciado-base);
+    text-align: center;
+}
+
+
+.contenido{
+    padding: var(--espaciado-base);
+}

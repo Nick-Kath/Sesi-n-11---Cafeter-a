@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marca Ficticia</title>
+    <link rel="stylesheet" href="./Estilos/componet.css">
+    <link rel="stylesheet" href="./Estilos/layout.css">
+    <link rel="stylesheet" href="./Estilos/main.css">
+    <link rel="stylesheet" href="./Estilos/reset.css">
+    <link rel="stylesheet" href="./Estilos/variables.css">
+
+</head>
+<body>
+    <header class="encabezado">
+        <h1 class="encabezado__titulo">Cafetería MeLatte</h1>
+        <nav class="menu">
+            <a href="#">¿Quienes somos?</a>
+            <a href="#">Productos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenido">
+        <section class="sofa-cafe">
+            <div class="galeria">
+                <img src="Imágenes/portada1.png" alt="Interior Cafe">
+                <img src="Imágenes/portada2.png" alt="Decoración Cafe">
+                <img src="Imágenes/partada3.jpg" alt="Preparación Café">
+                <img src="Imágenes/portada4.png" alt="Comida Café">
+            </div>
+
+            <div class="texto">
+                <h2><span class="experiencia">Vive la experiencia con</span><br><span class="sofa">ME LATTE</span></h2>
+                <p class="subtitulo"><em>¿Quiénes somos?</em></p>
+                <p>
+                    MeLatte es un restaurante casual que ofrece una carta de deliciosa de variados cafés peruanos a precios razonables, todo esto en la mejor atmósfera, asi como los mejores acompañamientos como Galletas o Kekes especiales que tenemos para ti...
+                </p>
+                <button class="btn">Conoce mas</button>
+            </div>
+        </section>     
+
+        <section class="carta">
+            <h2 class="carta__titulo">Nuestros productos</h2>
+            <section class="carta__detalle">
+                <article class="producto">
+                    <figure class="producto__figura">
+                        <img src="Imágenes/cafe1.png" alt="Taza de café expreso" class="producto__imagen">
+                        <figcaption class="producto__nombre">Café Expreso</figcaption>
+                    </figure>
+                    <p class="producto__precio">S/ 10.00</p>
+                </article>
+
+                <article class="producto">
+                    <figure class="producto__figura">
+                        <img src="Imágenes/cafe2.png" alt="Taza de café Latte" class="producto__imagen">
+                        <figcaption class="producto__nombre">Café Latte</figcaption>
+                    </figure>
+                    <p class="producto__precio">S/ 13.00</p>
+                </article>
+
+                <article class="producto">
+                    <figure class="producto__figura">
+                        <img src="Imágenes/cafe3.png" alt="Taza de café macchiato"class="producto__imagen">
+                        <figcaption class="producto__nombre">Café macchiato</figcaption>
+                    </figure>
+                    <p class="producto__precio">S/ 15.00</p>
+                </article>
+
+                <article class="producto">
+                    <figure class="producto__figura">
+                        <img src="Imágenes/cafe4.png" alt="Taza de cappuccino" class="producto__imagen">
+                        <figcaption class="producto__nombre">Cappuccino</figcaption>
+                    </figure>                    
+                    <p class="producto__precio">S/ 19.00</p>
+                </article>
+
+                <article class="producto">
+                    <figure class="producto__figura">
+                            <img src="Imágenes/cafe5.png" alt="Taza de café Lattemacchiato" class="producto__imagen">
+                            <figcaption class="producto__nombre">Café Latte macchiato</figcaption>
+                    </figure>                         
+                    <p class="producto__precio">S/ 20.00</p>
+                </article>
+
+                <article class="producto">
+                    <figure class="producto__figura">
+                            <img src="Imágenes/americano.png" alt="Taza de café Americano" class="producto__imagen">
+                            <figcaption class="producto__nombre">Café Americano</figcaption>
+                    </figure>                  
+                    <p class="producto__precio">S/ 11.00</p>
+                </article>
+
+                <article class="producto">
+                    <figure class="producto__figura">
+                            <img src="Imágenes/filtrado.png" alt="Taza de café Filtrado" class="producto__imagen">
+                            <figcaption class="producto__nombre">Café Filtrado</figcaption>
+                    </figure>                  
+                    <p class="producto__precio">S/ 15.00</p>
+                </article>
+
+                <article class="producto">
+                    <figure class="producto__figura">
+                            <img src="Imágenes/dalgona.png" alt="Taza de café Dalgona" class="producto__imagen">
+                            <figcaption class="producto__nombre">Café Dalgona</figcaption>
+                    </figure>                  
+                    <p class="producto__precio">S/ 16.00</p>
+                </article>
+
+            </section>                            
+        </section>   
+    </main>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="celular">Celular:</label>
+            <input type="celular" id="celular" name="celular" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <label><input type="checkbox" required> He leído y acepto las políticas de privacidad de datos de esta web.</label>
+            <label><input type="checkbox"> Acepto el tratamiento de mis datos para fines publicitarios (Opcional)</label>
+            <label><input type="checkbox"> Declaro que soy mayor de 18 años.</label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="pie">
+        <p>© 2025 Cafetería Aroma por Nikoll Silva</p>
+        <h2 class="escritura">¡Bienvenido!</h2>
+    </footer>
+
+</body>
+</html>
